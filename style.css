@@ -1,0 +1,185 @@
+body{
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.text-one{
+    font-size: 40px;
+}
+.text-two{
+    font-size: 10px;
+}
+.header-two{
+    margin-top: -30px;
+}
+.background{
+    background-color: #fff;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.input-box .input-fied{
+    width: 250px;
+    font-size: 17px;
+    outline: none;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #000;
+    transition: border-bottom-color 0.15s;
+    margin-top: 30px;
+}
+.input-box .input-fied:hover{
+    border-bottom-color: #000;
+}
+.sign-in{
+    position: relative;
+    margin-top: 30px;
+    justify-content: center;
+}
+.sign-btn{
+    width: 80%;
+    height: 40px;
+    background:#222;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.sign-in label{
+    position: absolute;
+    top: 20px;
+    right: 125px;
+    color: #fff;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: #000;
+    transform: scale(1,05,1);
+}
+.words{
+   text-align: center;
+   padding-top: 20px;
+}
+.words-one{
+    font-size: 15px;
+    font-weight: 100px;
+    display: block;
+    color: rgba(0, 0, 0, .5);
+}
+.words-one a{
+    color: rgba(0, 0, 0, .5);
+}
+.words-one :hover{
+    color: #000;
+}
+.forgot{
+    padding-top: 5px;
+    font-size: 15px;
+}
+.forgot a{
+    color: #000;
+}
+.hr-text{
+    margin-top: 60px;
+    border: none;
+    position: relative;
+    text-align: center;
+}
+.hr-text::before{
+    background: #222;
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    top: 50%;
+}
+.hr-text::after{
+    content: attr(data-content);
+    position: relative;
+    background: #fff;
+    padding: 0 5px;
+}
+.create-stn{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 3sec;
+}
+.create-stn:hover{
+    box-shadow: 1px 1px;
+   transform: scale(1.05,1);
+}
+.words-two{
+    font-display: block;
+    font-size: 15px;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 255, 255, .7);
+}
+.words-two a{
+   color: rgba(255, 255, 255, .7);
+}
+.words-two :hover{
+    color: #fff;
+}
+.line{
+    width: 100%;
+    border-style: thin;
+    border-width: thin;
+    border-color:rgba(0, 0, 0, .5); 
+}
+.bottom{
+    display: flexbox;
+    flex-direction: column;
+}
+.MultiChoice-logo{
+    padding-top: 10px;
+    width: 15%;
+}
+.text-three p{
+    width: 100%;
+    border-style: none;
+    font-size: 13px;
+    color:  rgba(255, 255, 255, .7);
+}
+.text-three a{
+    display:absolute;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+}
+.text-four :hover{
+    color: #fff;
+}
+.face{
+    width: 5%;
+}
+.twit{
+    width: 5%;
+}
+.insta{
+    width: 5%;
+}
+.youtube{
+    width: 5%;
+}
